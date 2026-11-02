@@ -1,20 +1,15 @@
 {
   "sections": [
     {
-      "title": "Server Status",
+      "title": "Server Applications",
       "layout": "large",
       "showUrl": true,
       "showStatus": true,
       "items": [
         {
-          "name": "Vaio - Remote Access",
+          "name": "FreeLLMAPI (Local)",
           "icon": "🖥️",
-          "url": "https://home.miglanis.in"
-        },
-        {
-          "name": "HP - Local Access",
-          "icon": "💻",
-          "url": "http://192.168.1.111"
+          "url": "http://localhost:3001"
         },
         {
           "name": "N8N",
@@ -24,7 +19,12 @@
         {
           "name": "Evolution API",
           "icon": "📱",
-          "url": "https://wa.premiumzone.cc/manager/instances"
+          "url": "https://evo.premiumzone.cc/manager/instances"
+        },
+        {
+          "name": "WAPCrm",
+          "icon": "📱",
+          "url": "https://wa.premiumzone.cc/"
         }
       ]
     },
