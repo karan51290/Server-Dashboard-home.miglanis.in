@@ -7,11 +7,6 @@
       "showStatus": true,
       "items": [
         {
-          "name": "FreeLLMAPI (Local)",
-          "icon": "🖥️",
-          "url": "http://localhost:3001"
-        },
-        {
           "name": "N8N",
           "icon": "⚙️",
           "url": "https://n8n.premiumzone.cc"
@@ -20,6 +15,11 @@
           "name": "Evolution API",
           "icon": "📱",
           "url": "https://evo.premiumzone.cc/manager/instances"
+        },
+        {
+          "name": "Waha API",
+          "icon": "📱",
+          "url": "https://waha.premiumzone.cc/dashboard"
         },
         {
           "name": "WAPCrm",
@@ -83,7 +83,45 @@
       ]
     },
     {
-      "title": "Applications",
+      "title": "Applications (Local)",
+      "layout": "large",
+      "showUrl": true,
+      "showStatus": true,
+      "items": [
+        {
+          "name": "Jellyfin",
+          "icon": "🎬",
+          "url": "http://192.168.1.111:8096"
+        },
+        {
+          "name": "qBittorrent",
+          "icon": "📤",
+          "url": "http://192.168.1.111:8080"
+        },
+        {
+          "name": "Prowlarr",
+          "icon": "🔍",
+          "url": "http://192.168.1.111:9696"
+        },
+        {
+          "name": "Aria2",
+          "icon": "⬇️",
+          "url": "http://192.168.1.111:6801"
+        },
+        {
+          "name": "FreeLLMAPI",
+          "icon": "🖥️",
+          "url": "http://192.168.1.111:3001"
+        },
+        {
+          "name": "CopyParty (File Access)",
+          "icon": "📂",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Applications (Remote)",
       "layout": "large",
       "showUrl": true,
       "showStatus": true,
@@ -92,11 +130,6 @@
           "name": "Jellyfin",
           "icon": "🎬",
           "url": "https://media.miglanis.in"
-        },
-        {
-          "name": "Stremio",
-          "icon": "▶️",
-          "url": "https://web.stremio.com"
         },
         {
           "name": "qBittorrent",
@@ -112,6 +145,11 @@
           "name": "Aria2",
           "icon": "⬇️",
           "url": "https://dl.miglanis.in"
+        },
+        {
+          "name": "FreeLLMAPI",
+          "icon": "🖥️",
+          "url": "http://192.168.1.111:3001"
         },
         {
           "name": "Resilio Sync",
