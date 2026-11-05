@@ -12,14 +12,19 @@
           "url": "https://n8n.premiumzone.cc"
         },
         {
-          "name": "Evolution API",
-          "icon": "📱",
-          "url": "https://evo.premiumzone.cc/manager/instances"
-        },
-        {
           "name": "Waha API",
           "icon": "📱",
           "url": "https://waha.premiumzone.cc/dashboard"
+        },
+        {
+          "name": "Ledger",
+          "icon": "💰",
+          "url": "https://ledger.premiumzone.cc/"
+        },
+        {
+          "name": "Evolution API",
+          "icon": "📱",
+          "url": "https://evo.premiumzone.cc/manager/instances"
         },
         {
           "name": "WAPCrm",
